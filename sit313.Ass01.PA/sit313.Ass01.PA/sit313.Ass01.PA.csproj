@@ -60,6 +60,19 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\about.png" />
+    <AndroidResource Include="Resources\drawable\back.png" />
+    <AndroidResource Include="Resources\drawable\bg1.jpg" />
+    <AndroidResource Include="Resources\drawable\detail.png" />
+    <AndroidResource Include="Resources\drawable\dollars.png" />
+    <AndroidResource Include="Resources\drawable\exit.png" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable\insert.png" />
+    <AndroidResource Include="Resources\drawable\keyborad.png" />
+    <AndroidResource Include="Resources\drawable\left.png" />
+    <AndroidResource Include="Resources\drawable\list.png" />
+    <AndroidResource Include="Resources\drawable\percent.png" />
+    <AndroidResource Include="Resources\drawable\right.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
