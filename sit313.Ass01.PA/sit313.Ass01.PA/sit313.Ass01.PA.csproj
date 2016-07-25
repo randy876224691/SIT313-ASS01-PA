@@ -46,6 +46,9 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Listbalance.cs" />
+    <Compile Include="Insert.cs" />
+    <Compile Include="CustomOpenHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -53,7 +56,7 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\layout\activity_main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-mdpi\Icon.png" />
@@ -73,6 +76,13 @@
     <AndroidResource Include="Resources\drawable\list.png" />
     <AndroidResource Include="Resources\drawable\percent.png" />
     <AndroidResource Include="Resources\drawable\right.png" />
+    <AndroidResource Include="Resources\layout\activity_insert.axml" />
+    <AndroidResource Include="Resources\values\Style.xml" />
+    <AndroidResource Include="Resources\values\Dimens.xml" />
+    <AndroidResource Include="Resources\values\Color.xml" />
+    <AndroidResource Include="Resources\layout\activity_listbalance.axml" />
+    <AndroidResource Include="Resources\layout\detail.axml" />
+    <AndroidResource Include="Resources\layout\detail_adapter.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
