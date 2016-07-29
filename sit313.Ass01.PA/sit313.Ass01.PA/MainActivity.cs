@@ -162,7 +162,7 @@ namespace sit313.Ass01.PA
 
 		public void showDialog()
 		{
-			Dialog dialog = new Dialog(MainActivity, Android.Resource.Style.ThemeLight);
+			Dialog dialog = new Dialog(this, Android.Resource.Style.ThemeLight);
 			dialog.SetCancelable(true);     //could be canceled
 			dialog.SetContentView(Resource.Layout.detail);     //set the view layout for this dialog
 														//set the widgets
@@ -172,7 +172,7 @@ namespace sit313.Ass01.PA
 			ListView lv = dialog.FindViewById<ListView>(Resource.Id.lstDetail);
 			//using the custom list view layout
 
-			lv.SetAdapter(new detailListAdapter(value, item));
+			lv.Adapter = new detailListAdapter(this, value, item);
 
 			cancel.Click +=delegate {
 				dialog.Dismiss();
@@ -181,7 +181,7 @@ namespace sit313.Ass01.PA
 			dialog.Show();
 		}
 
-		class detailListAdapter: BaseAdapter<string>
+		class detailListAdapter: BaseAdapter
 		{
 			//set the items in custom list
 			List<double> title;
@@ -200,14 +200,7 @@ namespace sit313.Ass01.PA
 			{
 				title = text1;
 				detail = text2;
-			}
-
-			public override string this[int position]
-			{
-				get
-				{
-					return title[position];
-				}
+				this.activity = activity;
 			}
 
 			public override int Count
@@ -233,13 +226,14 @@ namespace sit313.Ass01.PA
 
 			public override View GetView(int position, View convertView, ViewGroup parent)
 			{
-				View row;
-				row = activity.LayoutInflater.Inflate(Resource.Layout.detail_adapter, parent, false);
+
+				var row = convertView ?? activity.LayoutInflater.Inflate(
+		Resource.Layout.detail_adapter, parent, false);
 				TextView ctitle, cdetail;
 				ctitle = row.FindViewById<TextView>(Resource.Id.value);
 				cdetail = row.FindViewById<TextView>(Resource.Id.item);
-				ctitle.SetText("$" + string);
-				cdetail.SetText(detail);
+				ctitle.Text = "$" + title[position].ToString();
+				cdetail.Text = detail[position].ToString();
 				return row;
 			}
 		}
@@ -268,14 +262,18 @@ namespace sit313.Ass01.PA
 					break;
 				case Resource.Id.lblDate:
 					break;
+
+					/*
 				case Resource.Id.btnList:
 					moveTolist();
 					break;
-				case Resource.Id.btnDetails:
-					//showDialog();
-					break;
+					*/
+
 				case Resource.Id.btnInsert:
 					moveToInsert();
+					break;
+				case Resource.Id.btnDetails:
+					showDialog();
 					break;
 				default:
 					break;

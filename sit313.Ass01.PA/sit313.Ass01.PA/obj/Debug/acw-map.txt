@@ -1,0 +1,20 @@
+sit313.Ass01.PA.MainActivity, sit313.Ass01.PA;md523ae9eb38c3f20d6e8579f4f90eb9584.MainActivity
+sit313.Ass01.PA.MainActivity, sit313.Ass01.PA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md523ae9eb38c3f20d6e8579f4f90eb9584.MainActivity
+sit313.Ass01.PA.MainActivity;md523ae9eb38c3f20d6e8579f4f90eb9584.MainActivity
+sit313.ass01.pa.MainActivity;md523ae9eb38c3f20d6e8579f4f90eb9584.MainActivity
+sit313.Ass01.PA.MainActivity/detailListAdapter, sit313.Ass01.PA;md523ae9eb38c3f20d6e8579f4f90eb9584.MainActivity_detailListAdapter
+sit313.Ass01.PA.MainActivity+detailListAdapter, sit313.Ass01.PA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md523ae9eb38c3f20d6e8579f4f90eb9584.MainActivity_detailListAdapter
+sit313.Ass01.PA.MainActivity.detailListAdapter;md523ae9eb38c3f20d6e8579f4f90eb9584.MainActivity_detailListAdapter
+sit313.ass01.pa.MainActivity_detailListAdapter;md523ae9eb38c3f20d6e8579f4f90eb9584.MainActivity_detailListAdapter
+sit313.Ass01.PA.Listbalance, sit313.Ass01.PA;md523ae9eb38c3f20d6e8579f4f90eb9584.Listbalance
+sit313.Ass01.PA.Listbalance, sit313.Ass01.PA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md523ae9eb38c3f20d6e8579f4f90eb9584.Listbalance
+sit313.Ass01.PA.Listbalance;md523ae9eb38c3f20d6e8579f4f90eb9584.Listbalance
+sit313.ass01.pa.Listbalance;md523ae9eb38c3f20d6e8579f4f90eb9584.Listbalance
+sit313.Ass01.PA.Insert, sit313.Ass01.PA;md523ae9eb38c3f20d6e8579f4f90eb9584.Insert
+sit313.Ass01.PA.Insert, sit313.Ass01.PA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md523ae9eb38c3f20d6e8579f4f90eb9584.Insert
+sit313.Ass01.PA.Insert;md523ae9eb38c3f20d6e8579f4f90eb9584.Insert
+sit313.ass01.pa.Insert;md523ae9eb38c3f20d6e8579f4f90eb9584.Insert
+sit313.Ass01.PA.CustomOpenHelper, sit313.Ass01.PA;md523ae9eb38c3f20d6e8579f4f90eb9584.CustomOpenHelper
+sit313.Ass01.PA.CustomOpenHelper, sit313.Ass01.PA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md523ae9eb38c3f20d6e8579f4f90eb9584.CustomOpenHelper
+sit313.Ass01.PA.CustomOpenHelper;md523ae9eb38c3f20d6e8579f4f90eb9584.CustomOpenHelper
+sit313.ass01.pa.CustomOpenHelper;md523ae9eb38c3f20d6e8579f4f90eb9584.CustomOpenHelper

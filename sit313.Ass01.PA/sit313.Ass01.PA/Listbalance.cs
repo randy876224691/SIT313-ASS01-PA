@@ -42,9 +42,6 @@ namespace sit313.Ass01.PA
 			str = setDate(date);
 			databaseReader();
 
-			calendarView.SetOnDateChangeListener(calendarView.SetOnDateChangeListener, listener);
-
-
 			btnBack.Click +=delegate {
 				moveToMain();
 			};
