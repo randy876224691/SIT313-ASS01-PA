@@ -1,1 +1,18 @@
-﻿<Properties StartupItem="sit313.Ass01.PA/sit313.Ass01.PA.csproj" />
+﻿<Properties StartupItem="sit313.Ass01.PA/sit313.Ass01.PA.csproj">
+  <MonoDevelop.Ide.ItemProperties.sit313.Ass01.PA AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.Light.NoTitleBar" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="sit313.Ass01.PA/Properties/AndroidManifest.xml">
+    <Files>
+      <File FileName="sit313.Ass01.PA/MainActivity.cs" Line="14" Column="23" />
+      <File FileName="sit313.Ass01.PA/CustomOpenHelper.cs" Line="1" Column="1" />
+      <File FileName="sit313.Ass01.PA/Insert.cs" Line="1" Column="1" />
+      <File FileName="sit313.Ass01.PA/Listbalance.cs" Line="1" Column="1" />
+      <File FileName="sit313.Ass01.PA/Resources/values/Strings.xml" Line="7" Column="1" />
+      <File FileName="sit313.Ass01.PA/Properties/AndroidManifest.xml" Line="2" Column="162" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

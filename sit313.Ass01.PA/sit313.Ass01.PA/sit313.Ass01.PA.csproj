@@ -77,7 +77,6 @@
     <AndroidResource Include="Resources\drawable\percent.png" />
     <AndroidResource Include="Resources\drawable\right.png" />
     <AndroidResource Include="Resources\layout\activity_insert.axml" />
-    <AndroidResource Include="Resources\values\Style.xml" />
     <AndroidResource Include="Resources\values\Dimens.xml" />
     <AndroidResource Include="Resources\values\Color.xml" />
     <AndroidResource Include="Resources\layout\activity_listbalance.axml" />

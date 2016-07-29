@@ -41,6 +41,65 @@ namespace sit313.Ass01.PA
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050002
+			public const int colorAccent = 2131034114;
+			
+			// aapt resource value: 0x7f050004
+			public const int colorFire = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int colorFireTrans = 2131034117;
+			
+			// aapt resource value: 0x7f050007
+			public const int colorGrey = 2131034119;
+			
+			// aapt resource value: 0x7f050006
+			public const int colorPink = 2131034118;
+			
+			// aapt resource value: 0x7f050000
+			public const int colorPrimary = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int colorPrimaryDark = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int colorSunrise = 2131034115;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int activity_horizontal_margin = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int activity_vertical_margin = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int fab_margin = 2131099650;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -96,8 +155,65 @@ namespace sit313.Ass01.PA
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int myButton = 2131099648;
+			// aapt resource value: 0x7f080002
+			public const int btnBack = 2131230722;
+			
+			// aapt resource value: 0x7f080006
+			public const int btnBackList = 2131230726;
+			
+			// aapt resource value: 0x7f080010
+			public const int btnCancel = 2131230736;
+			
+			// aapt resource value: 0x7f08000e
+			public const int btnDetails = 2131230734;
+			
+			// aapt resource value: 0x7f080003
+			public const int btnDone = 2131230723;
+			
+			// aapt resource value: 0x7f08000a
+			public const int btnInsert = 2131230730;
+			
+			// aapt resource value: 0x7f080004
+			public const int btnKey = 2131230724;
+			
+			// aapt resource value: 0x7f08000d
+			public const int btnLeft = 2131230733;
+			
+			// aapt resource value: 0x7f080009
+			public const int btnList = 2131230729;
+			
+			// aapt resource value: 0x7f08000c
+			public const int btnRight = 2131230732;
+			
+			// aapt resource value: 0x7f080008
+			public const int calendar = 2131230728;
+			
+			// aapt resource value: 0x7f080000
+			public const int cash = 2131230720;
+			
+			// aapt resource value: 0x7f080001
+			public const int comment = 2131230721;
+			
+			// aapt resource value: 0x7f080013
+			public const int item = 2131230739;
+			
+			// aapt resource value: 0x7f08000f
+			public const int lblAmount = 2131230735;
+			
+			// aapt resource value: 0x7f08000b
+			public const int lblDate = 2131230731;
+			
+			// aapt resource value: 0x7f080005
+			public const int lblDateInsert = 2131230725;
+			
+			// aapt resource value: 0x7f080011
+			public const int lstDetail = 2131230737;
+			
+			// aapt resource value: 0x7f080007
+			public const int totalList = 2131230727;
+			
+			// aapt resource value: 0x7f080012
+			public const int value = 2131230738;
 			
 			static Id()
 			{
@@ -113,7 +229,19 @@ namespace sit313.Ass01.PA
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int Main = 2130968576;
+			public const int activity_insert = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int activity_listbalance = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int activity_main = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int detail = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int detail_adapter = 2130968580;
 			
 			static Layout()
 			{
@@ -144,11 +272,14 @@ namespace sit313.Ass01.PA
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int app_name = 2131034113;
+			// aapt resource value: 0x7f070001
+			public const int action_settings = 2131165185;
 			
-			// aapt resource value: 0x7f050000
-			public const int hello = 2131034112;
+			// aapt resource value: 0x7f070000
+			public const int app_name = 2131165184;
+			
+			// aapt resource value: 0x7f070002
+			public const int title_activity_main = 2131165186;
 			
 			static String()
 			{
