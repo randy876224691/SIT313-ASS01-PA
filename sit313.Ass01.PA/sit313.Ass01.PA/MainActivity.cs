@@ -91,6 +91,12 @@ namespace sit313.Ass01.PA
 
 			dateText.Text = now;
 
+			ImageButton btnlist = FindViewById<ImageButton>(Resource.Id.btnList);
+			btnlist.Click += delegate(object sender, EventArgs e)
+			{
+				new DatePickerDialog(this, OnDatePickerSelect, DateTime.Today.Year, DateTime.Today.Month - 1, DateTime.Today.Day).Show();
+			};
+
 
 
 
@@ -102,8 +108,6 @@ namespace sit313.Ass01.PA
 		{
 			return DateTime.ParseExact(strDate, "dd-MM-yyyy", System.Globalization.CultureInfo.CurrentCulture);
 		}
-
-
 
 		//formatting the Date to string
 		public static string setDate(DateTime date)
@@ -144,12 +148,20 @@ namespace sit313.Ass01.PA
 			lblAmount.Text = "$" + amount.ToString(); //set the text for label
 		}
 
-		public void moveTolist()
+
+		//date picker
+		void OnDatePickerSelect(object sender, DatePickerDialog.DateSetEventArgs datepicker)
 		{
-			Intent intent = new Intent(this, typeof(Listbalance));
-			intent.SetFlags(ActivityFlags.ClearTop);
-			StartActivity(intent);
+			RunOnUiThread(() =>
+			{
+				now = setDate(datepicker.Date);
+				dateText.Text = now;
+				databaseReader();
+
+			});
 		}
+
+
 
 		public void moveToInsert()
 		{
@@ -262,12 +274,7 @@ namespace sit313.Ass01.PA
 					break;
 				case Resource.Id.lblDate:
 					break;
-
-					/*
-				case Resource.Id.btnList:
-					moveTolist();
-					break;
-					*/
+				
 
 				case Resource.Id.btnInsert:
 					moveToInsert();

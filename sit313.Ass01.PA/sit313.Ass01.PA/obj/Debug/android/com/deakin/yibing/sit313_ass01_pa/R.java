@@ -44,32 +44,28 @@ public final class R {
     }
     public static final class id {
         public static final int btnBack=0x7f080002;
-        public static final int btnBackList=0x7f080006;
-        public static final int btnCancel=0x7f080010;
-        public static final int btnDetails=0x7f08000e;
+        public static final int btnCancel=0x7f08000d;
+        public static final int btnDetails=0x7f08000b;
         public static final int btnDone=0x7f080003;
-        public static final int btnInsert=0x7f08000a;
+        public static final int btnInsert=0x7f080007;
         public static final int btnKey=0x7f080004;
-        public static final int btnLeft=0x7f08000d;
-        public static final int btnList=0x7f080009;
-        public static final int btnRight=0x7f08000c;
-        public static final int calendar=0x7f080008;
+        public static final int btnLeft=0x7f08000a;
+        public static final int btnList=0x7f080006;
+        public static final int btnRight=0x7f080009;
         public static final int cash=0x7f080000;
         public static final int comment=0x7f080001;
-        public static final int item=0x7f080013;
-        public static final int lblAmount=0x7f08000f;
-        public static final int lblDate=0x7f08000b;
+        public static final int item=0x7f080010;
+        public static final int lblAmount=0x7f08000c;
+        public static final int lblDate=0x7f080008;
         public static final int lblDateInsert=0x7f080005;
-        public static final int lstDetail=0x7f080011;
-        public static final int totalList=0x7f080007;
-        public static final int value=0x7f080012;
+        public static final int lstDetail=0x7f08000e;
+        public static final int value=0x7f08000f;
     }
     public static final class layout {
         public static final int activity_insert=0x7f040000;
-        public static final int activity_listbalance=0x7f040001;
-        public static final int activity_main=0x7f040002;
-        public static final int detail=0x7f040003;
-        public static final int detail_adapter=0x7f040004;
+        public static final int activity_main=0x7f040001;
+        public static final int detail=0x7f040002;
+        public static final int detail_adapter=0x7f040003;
     }
     public static final class mipmap {
         public static final int icon=0x7f030000;
